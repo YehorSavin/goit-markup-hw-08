@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+        <nav class="main-nav">
+            <a href="/"><img src="./images/WebStudio.svg" class="logo" alt="Логотип"></a>
+            <ul class="list site-nav">
+                <li><a href="./index.html" class="link current">Студия</a></li>
+                <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+                <li><a href="#contacts" class="link">Контакты</a></li>
+            </ul>
+            <ul class="list site-address">
+                <li><a href="mailto:info@devstudio.com" class="link-mail">
+                    <svg class="mail-svg-n" width="16" height="12"><use href="./images/sprite.svg#envelope"></use></svg> info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="link-tel">
+                    <svg class="phone-svg-n"  width="10" height="16"><use href="./images/sprite.svg#smartphone"></use></svg> +38 096 111 11 11</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>     
+        <section class="hero">
+            <div class="container hero-con">
+                <h1 class="hero-title">Эффективные решения<br> для вашего бизнеса</h1>
+                <button class="button primary" href="" data-modal-open>Заказать услугу</button>
+            </div>
+        </section>
+        <section class="functions-section section">
+            <div class="container">
+            <h2 hidden>Функции</h2>
+            <ul class="list function-list">
+                <li class="fnc-list">
+                    <div>
+                         <svg class="function-img" width="70" height="70"><use href="./images/sprite.svg#antenna" ></use></svg>
+                    </div>
+                    <h3 class="section-function">Внимание к деталям</h3>
+                    <p class="function-items">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                </li>
+                <li class="fnc-list">
+                    <div>
+                         <svg class="function-img" width="70" height="70"><use href="./images/sprite.svg#clock" ></use></svg>
+                    </div>
+                    <h3 class="section-function">Пунктуальность</h3>
+                    <p class="function-items">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                </li>
+                <li class="fnc-list">
+                    <div>
+                         <svg class="function-img" width="70" height="70"><use href="./images/sprite.svg#diagram" ></use></svg>
+                    </div>
+                    <h3 class="section-function">Планирование</h3>
+                    <p class="function-items">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                </li>
+                <li class="fnc-list">
+                    <div>
+                         <svg class="function-img" width="70" height="70"><use href="./images/sprite.svg#astronaut" ></use></svg>
+                    </div>    
+                    <h3 class="section-function">Современные технологии</h3>
+                    <p class="function-items">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                </li>
+            </ul>
+            </div>
+        </section>
+        <section class="whatwedo-section section">
+        <div class="container">
+            <h2 class="section-title">Чем мы занимаемся</h2>
+            <ul class="list function-list">
+                <li class="work-li">
+                    <div class="overlay-whatwedo">
+                    <h3 class="whatwedo">Десктопные приложения</h3>
+                    </div>
+                    <img src="./images/img(1).jpg" alt="" width="370">
+                </li>
+                <li class="work-li">
+                    <div class="overlay-whatwedo">
+                    <h3 class="whatwedo">Мобильные приложения</h3>
+                    </div>
+                    <img src="./images/img(2).jpg" alt="" width="370">
+                </li>
+                <li class="work-li">
+                    <div class="overlay-whatwedo">
+                    <h3 class="whatwedo">Дизайнерские решения</h3>
+                    </div>
+                    <img src="./images/img(3).jpg" alt="" width="370">
+                </li>
+            </ul>
+        </div>
+        </section>
+        <section class="team-section section">
+        <div class="container">
+            <h2 class="section-title">Наша команда</h2>
+            <ul class="list function-list">
+                <li class="fnc-li">
+                    <img src="./images/img01.jpg" alt="">
+                    <h3 class="section-item">Николай Кучеренко</h3>
+                    <p>Product Designer</p>
+                    <ul class="social-list">
+                        <li class="social-element"><a href="https://www.instagram.com/?hl=ru" target="_blank" class="social-link">
+                            <svg class="svg-team">
+                                <use href="./images/sprite.svg#instagram"></use>
+                            </svg></a></li>
+                        <li class="social-element"><a href="https://twitter.com/explore" target="_blank" class="social-link">
+                            <svg class="svg-team">
+                                <use href="./images/sprite.svg#twitter"></use>
+                            </svg></a></li>
+                        <li class="social-element"><a href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506868&extra_1=s%7Cc%7C303839676198%7Ce%7Cfacebook%7C&placement=&creative=303839676198&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506868%26adgroupid%3D60825658456%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D9061020%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwjLD4BRAiEiwAg5NBFtguiMSLvXgGRlx7NWDnHO7qBOjqMM1xP7AW2_6qaOmT_vZ8aqdPcxoCaqUQAvD_BwE" target="_blank" class="social-link">
+                            <svg class="svg-team">
+                                <use href="./images/sprite.svg#facebook"></use></svg></a></li>
+                        <li class="social-element"><a href="" target="_blank" class="social-link">
+                            <svg class="svg-team">
+                                <use href="./images/sprite.svg#linkedin"></use></svg>
+                        </a></li>
+                    </ul>
+                </li>
+                <li class="fnc-li">
+                    <img src="./images/ОльгаИванова.jpg" alt="">
+                    <h3 class="section-item">Ольга Иванова</h3>
+                    <p>Frontend Developer</p>
+                    <ul class="social-list">
+                        <li class="social-element">
+                            <a href="https://www.instagram.com/?hl=ru" target="_blank" class="social-link">
+                                <svg class="svg-team">
+                                    <use href="./images/sprite.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-element">
+                            <a href="https://twitter.com/explore" target="_blank" class="social-link">
+                            <svg class="svg-team">
+                            <use href="./images/sprite.svg#twitter"></use>
+                        </svg></a></li>
+                        <li class="social-element"><a href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506868&extra_1=s%7Cc%7C303839676198%7Ce%7Cfacebook%7C&placement=&creative=303839676198&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506868%26adgroupid%3D60825658456%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D9061020%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwjLD4BRAiEiwAg5NBFtguiMSLvXgGRlx7NWDnHO7qBOjqMM1xP7AW2_6qaOmT_vZ8aqdPcxoCaqUQAvD_BwE" target="_blank" class="social-link">
+                            <svg class="svg-team">
+                            <use href="./images/sprite.svg#facebook"></use></svg></a></li>
+                        <li class="social-element"><a href="" target="_blank" class="social-link"><svg class="svg-team">
+                            <use href="./images/sprite.svg#linkedin"></use></svg></a></li>
+                    </ul>
+                </li>
+                <li class="fnc-li">
+                    <img src="./images/АндрейШевченко.jpg" alt="">
+                    <h3 class="section-item">Андрей Шевченко</h3>
+                    <p>Marketing</p>
+                    <ul class="social-list">
+                        <li class="social-element"><a href="https://www.instagram.com/?hl=ru" target="_blank" class="social-link"><svg class="svg-team">
+                            <use href="./images/sprite.svg#instagram"></use>
+                            </svg></a></li>
+                        <li class="social-element"><a href="https://twitter.com/explore" target="_blank" class="social-link"><svg class="svg-team">
+                            <use href="./images/sprite.svg#twitter"></use>
+                            </svg></a></li>
+                        <li class="social-element"><a href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506868&extra_1=s%7Cc%7C303839676198%7Ce%7Cfacebook%7C&placement=&creative=303839676198&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506868%26adgroupid%3D60825658456%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D9061020%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwjLD4BRAiEiwAg5NBFtguiMSLvXgGRlx7NWDnHO7qBOjqMM1xP7AW2_6qaOmT_vZ8aqdPcxoCaqUQAvD_BwE" target="_blank" class="social-link">
+                            <svg class="svg-team">
+                            <use href="./images/sprite.svg#facebook"></use></svg></a></li>
+                        <li class="social-element"><a href="" target="_blank" class="social-link">
+                            <svg class="svg-team">
+                            <use href="./images/sprite.svg#linkedin"></use></svg>
+                        </a></li>
+                    </ul>
+                </li>
+                <li class="fnc-li">
+                    <img src="./images/ИванНиколаев.jpg" alt="">
+                    <h3 class="section-item">Иван Николаев</h3>
+                    <p>UI Designer</p>
+                    <ul class="social-list">
+                        <li class="social-element"><a href="https://www.instagram.com/?hl=ru" target="_blank" class="social-link">
+                            <svg class="svg-team">
+                            <use href="./images/sprite.svg#instagram"></use></svg></a></li>
+                        <li class="social-element"><a href="https://twitter.com/explore" target="_blank" class="social-link">
+                            <svg class="svg-team">
+                            <use href="./images/sprite.svg#twitter"></use></svg></a></li>
+                        <li class="social-element"><a href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506868&extra_1=s%7Cc%7C303839676198%7Ce%7Cfacebook%7C&placement=&creative=303839676198&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506868%26adgroupid%3D60825658456%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D9061020%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwjLD4BRAiEiwAg5NBFtguiMSLvXgGRlx7NWDnHO7qBOjqMM1xP7AW2_6qaOmT_vZ8aqdPcxoCaqUQAvD_BwE" target="_blank" class="social-link">
+                            <svg class="svg-team">
+                            <use href="./images/sprite.svg#facebook"></use></svg></a></li>
+                        <li class="social-element"><a href="" target="_blank" class="social-link">
+                            <svg class="svg-team">
+                            <use href="./images/sprite.svg#linkedin"></use></svg>
+                        </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        </section>
+        <section class="clients-section section">
+        <div class="container">
+            <h2 class="section-title">Постоянные клиенты</h2>
+            <ul class="list client-list">
+                <li class="client-li"><a href="" target="_blank" class="client-svg">
+                    <svg class="svg-client" width="44" height="49">
+                        <use href="./images/sprite.svg#icon"></use>
+                    </svg></a></li>
+                <li class="client-li"><a href="" target="_blank" class="client-svg">
+                    <svg class="svg-client" width="40" height="52">
+                        <use href="./images/sprite.svg#merge"></use>
+                    </svg></a></li>
+                <li class="client-li"><a href="" target="_blank" class="client-svg">
+                    <svg class="svg-client" width="41" height="42">
+                        <use href="./images/sprite.svg#company"></use>
+                    </svg></a></li>
+                <li class="client-li"><a href="" target="_blank" class="client-svg">
+                    <svg class="svg-client" width="80" height="42">
+                        <use href="./images/sprite.svg#foster"></use>
+                    </svg></a></li>
+                <li class="client-li"><a href="" target="_blank" class="client-svg">
+                    <svg class="svg-client" width="59" height="47">
+                        <use href="./images/sprite.svg#brand"></use>
+                    </svg></a></li>
+                <li class="client-li"><a href="" target="_blank" class="client-svg">
+                    <svg class="svg-client" width="88" height="45">
+                        <use href="./images/sprite.svg#tagline"></use>
+                    </svg></a></li>
+            </ul>
+        </div>
+        </section>
+        
+    </main>
+    
+        <footer id="contacts">
+            <div class="container footer-container">
+                <div class="foo-box">
+                <address class="address">
+                    <ul class="list">
+                        <li><a href="/"><img src="./images/WebStudio2.svg" alt="Логотип"></a></li>
+                        <li><p class="footerp">г. Киев, пр-т Леси Украинки, 26</p></li>      
+                        <li><a href="mailto:info@devstudio.com" class="link-mail">info@devstudio.com</a></li>
+                        <li><a href="tel:+380961111111" class="link-tel">+38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="foo-box">
+                <h3 class="podpis">присоединяйтесь</h3>
+                <ul class="join-list">
+                    <li class="social-element"><a href="https://www.instagram.com/?hl=ru" target="_blank" class="social-link">
+                        <svg class="svg-team">
+                        <use href="./images/sprite.svg#instagram"></use></svg></a></li>
+                    <li class="social-element"><a href="https://twitter.com/explore" target="_blank" class="social-link">
+                        <svg class="svg-team">
+                        <use href="./images/sprite.svg#twitter"></use></svg></a></li>
+                    <li class="social-element"><a href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506868&extra_1=s%7Cc%7C303839676198%7Ce%7Cfacebook%7C&placement=&creative=303839676198&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506868%26adgroupid%3D60825658456%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D9061020%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwjLD4BRAiEiwAg5NBFtguiMSLvXgGRlx7NWDnHO7qBOjqMM1xP7AW2_6qaOmT_vZ8aqdPcxoCaqUQAvD_BwE" target="_blank" class="social-link">
+                        <svg class="svg-team">
+                        <use href="./images/sprite.svg#facebook"></use></svg></a></li>
+                    <li class="social-element"><a href="" target="_blank" class="social-link">
+                        <svg class="svg-team">
+                        <use href="./images/sprite.svg#linkedin"></use></svg>
+                    </a></li>
+                </ul>
+                </div>
+                <div>
+                    <div class="podpis-div">
+                        <h3 class="podpis">Подпишитесь на рассылку</h3>
+                        <form>
+                            <label class="podpis-label" for=""></label>
+                            <input class="podpis-input" type="email" name="" id="" placeholder="E-mail">
+                            <button type="submit" class="podpisatsa">Подписатся <svg class="podpis-icon" width="24px" height="24px"><use href="./images/sprite.svg#podpisatsa"></use></svg></button>
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <div class="krestik-div">
+            <button type="button" class="form-wraper-close" data-modal-close>
+                <svg class="krestik-svg">
+                    <use href="./images/sprite.svg#Krestik"></use>
+                </svg>
+            </button>
+            </div>
+            <h2 class="form-heading">Оставьте свои данные, мы вам перезвоним</h2>
+            <form class="form js-speaker-form">
+                <label class="label frm" for="name">Имя</label>
+                <div class="form-field">
+                    <svg class="svg-form name-svg" width="12" height="12"><use href="./images/sprite.svg#name"></use></svg>
+                    <input class="input" type="text" name="user-name" id="name" autofocus>
+                </div>
+
+                <label class="label frm" for="tel">Телефон</label>
+                <div class="form-field">
+                    <svg class="svg-form phone-svg" width="13" height="13"><use href="./images/sprite.svg#phone"></use></svg>
+                    <input class="input" type="tel" name="tel" id="tel">
+                </div>
+
+                <label class="label frm" for="mail">Почта</label>
+                <div class="form-field">
+                    <svg class="svg-form mail-svg" width="15" height="12"><use href="./images/sprite.svg#mail"></use></svg>
+                    <input class="input" type="email" name="mail" id="mail">
+                </div>
+
+                <div class="form-field">
+                    <label class="label" for="comment">Комментарий</label>
+                    <textarea name="comment" placeholder="Введите текст" id="comment" rows="10"></textarea>
+                </div>
+
+                <div class="agreement">
+                    <input type="checkbox" class="checkbox" name="" value="dogovor" id="dogovor">
+                    <label for="dogovor">Соглашаюсь с рассылкой и принимаю <a href="" class="form-link">Условия договора</a></label>
+                </div>
+
+                <button type="submit" class="button-form">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+   
+
+    <!-- <script>
+        (() => {
+            document.querySelector("js-speaker-form").addEventListener("submit", e => {
+                e.preventDefault();
+
+                new FormData(e.currentTarget).forEach((value, name) =>
+                   console.log("${name}: ${value}"),
+                );
+            });
+        })();
+    </script> -->
+
+    <script src="./js/modal.js"></script>
+</body>
+
+</html>

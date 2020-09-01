@@ -1,0 +1,22 @@
+// общие для всех єлементов, свойства
+@import './utils/variables';
+@import './base/normalize';
+@import "./base/common";
+
+// только совйства контейнера под все типы устройств
+@import "./components/container";
+
+// каждая секция, включая хэдэр, футер, всплывающее окно и портфолио, ОТДЕЛЬНО
+@import "./components/header";
+
+@import "./components/hero";
+@import "./components/functions";
+@import './components/whatwedo';
+@import './components/team';
+@import "./components/clients";
+
+@import "./components/footer";
+
+@import "./components/modal-form";
+
+@import "./components/portfolio";
