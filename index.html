@@ -12,20 +12,30 @@
 
     <header class="header">
         <div class="container">
-        <nav class="main-nav">
+            <div class="burger-div">
             <a href="/"><img src="./images/WebStudio.svg" class="logo" alt="Логотип"></a>
-            <ul class="list site-nav">
-                <li><a href="./index.html" class="link current">Студия</a></li>
-                <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-                <li><a href="#contacts" class="link">Контакты</a></li>
-            </ul>
-            <ul class="list site-address">
-                <li><a href="mailto:info@devstudio.com" class="link-mail">
-                    <svg class="mail-svg-n" width="16" height="12"><use href="./images/sprite.svg#envelope"></use></svg> info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="link-tel">
-                    <svg class="phone-svg-n"  width="10" height="16"><use href="./images/sprite.svg#smartphone"></use></svg> +38 096 111 11 11</a></li>
-            </ul>
-        </nav>
+            <button type="button" class="button-phone" data-menu-button aria-controls="burger-menu">
+                <svg class="svg-burger" width="40" height='40'>
+                    <use class="burger" href="./images/sprite.svg#burger"></use>
+                    <use class="close" href="./images/sprite.svg#close"></use>
+                </svg>
+            </button>
+            </div>
+            <nav class="main-nav burger-menu" data-menu id="burger-menu">
+            <!-- <div class="burger-menu" data-menu id="burger-menu"> -->
+                <ul class="list site-nav">
+                    <li><a href="./index.html" class="link current">Студия</a></li>
+                    <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+                    <li><a href="#contacts" class="link">Контакты</a></li>
+                </ul>
+                <ul class="list site-address">
+                    <li><a href="mailto:info@devstudio.com" class="link-mail">
+                        <svg class="mail-svg-n" width="16" height="12"><use href="./images/sprite.svg#envelope"></use></svg> info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="link-tel">
+                        <svg class="phone-svg-n"  width="10" height="16"><use href="./images/sprite.svg#smartphone"></use></svg> +38 096 111 11 11</a></li>
+                </ul>
+            <!-- </div> -->
+            </nav>
         </div>
     </header>
     <main>     
@@ -35,7 +45,7 @@
                 <button class="button primary" href="" data-modal-open>Заказать услугу</button>
             </div>
         </section>
-        <!-- <section class="functions-section section">
+        <section class="functions-section section">
             <div class="container">
             <h2 hidden>Функции</h2>
             <ul class="list function-list">
@@ -69,8 +79,8 @@
                 </li>
             </ul>
             </div>
-        </section> -->
-        <!-- <section class="whatwedo-section section">
+        </section>
+        <section class="whatwedo-section section">
         <div class="container">
             <h2 class="section-title">Чем мы занимаемся</h2>
             <ul class="list function-list">
@@ -94,13 +104,13 @@
                 </li>
             </ul>
         </div>
-        </section> -->
-        <!-- <section class="team-section section">
+        </section>
+        <section class="team-section section">
         <div class="container">
             <h2 class="section-title">Наша команда</h2>
             <ul class="list function-list">
                 <li class="fnc-li">
-                    <img src="./images/img01.jpg" alt="">
+                    <img src="./images/img11.jpg" alt="">
                     <h3 class="section-item">Николай Кучеренко</h3>
                     <p>Product Designer</p>
                     <ul class="social-list">
@@ -122,7 +132,7 @@
                     </ul>
                 </li>
                 <li class="fnc-li">
-                    <img src="./images/ОльгаИванова.jpg" alt="">
+                    <img src="./images/img22.jpg" alt="">
                     <h3 class="section-item">Ольга Иванова</h3>
                     <p>Frontend Developer</p>
                     <ul class="social-list">
@@ -146,7 +156,7 @@
                     </ul>
                 </li>
                 <li class="fnc-li">
-                    <img src="./images/АндрейШевченко.jpg" alt="">
+                    <img src="./images/img33.jpg" alt="">
                     <h3 class="section-item">Андрей Шевченко</h3>
                     <p>Marketing</p>
                     <ul class="social-list">
@@ -166,7 +176,7 @@
                     </ul>
                 </li>
                 <li class="fnc-li">
-                    <img src="./images/ИванНиколаев.jpg" alt="">
+                    <img src="./images/img44.jpg" alt="">
                     <h3 class="section-item">Иван Николаев</h3>
                     <p>UI Designer</p>
                     <ul class="social-list">
@@ -187,7 +197,7 @@
                 </li>
             </ul>
         </div>
-        </section> -->
+        </section>
         <!-- <section class="clients-section section">
         <div class="container">
             <h2 class="section-title">Постоянные клиенты</h2>
@@ -323,6 +333,7 @@
     </script> -->
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>

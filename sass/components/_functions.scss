@@ -1,20 +1,20 @@
 .function-list{
-  display: flex;
+  display: block;
 }
 
-.function-list .fnc-li:not(:last-child){
-  margin-right: 30px;
-}
+// .function-list .fnc-li:not(:last-child){
+//   margin-right: 30px;
+// }
 
 .fnc-li{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  width: 270px;
 }
 
 
 
 .function-list .fnc-list{
-  width: 270px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .function-list .fnc-list:not(:last-child){
