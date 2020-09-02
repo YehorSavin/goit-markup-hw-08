@@ -1,5 +1,5 @@
  
-.whatwedo{
+.whatwedo-section{
   display: none;
 }
 
@@ -13,8 +13,8 @@
     background-color: rgba(47, 48, 58, 0.8);
   }
   
-  .whatwedo{
-    display: none;
+  .whatwedo-section{
+    display: block;
     text-align: center;
     padding-top: 27px;
     padding-bottom: 27px;
@@ -45,7 +45,7 @@
     height: auto;
   }
   
-  .whatwedo{
+  .whatwedo-section{
     text-transform: uppercase;
     margin: 0;
   }
